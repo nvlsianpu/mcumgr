@@ -3,6 +3,6 @@ target_include_directories(MCUMGR INTERFACE
 )
 
 zephyr_library_sources(
-    src/mcumgr_util.c
+    util/src/mcumgr_util.c
 )
 

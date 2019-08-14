@@ -1,7 +1,7 @@
-target_include_directories(MCUMGR INTERFACE
+target_include_directories(MCUMGR INTERFACE 
     include
 )
 
 zephyr_library_sources(
-    src/cborattr.c
+    cborattr/src/cborattr.c
 )

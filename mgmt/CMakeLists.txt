@@ -4,5 +4,5 @@ target_include_directories(MCUMGR INTERFACE
 )
 
 zephyr_library_sources(
-    src/mgmt.c
+    mgmt/src/mgmt.c
 )

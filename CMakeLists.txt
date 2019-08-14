@@ -1,4 +1,3 @@
-if(CONFIG_MCUMGR)
 zephyr_interface_library_named(MCUMGR)
 
 zephyr_library()
@@ -14,5 +13,3 @@ target_link_libraries(MCUMGR INTERFACE
   zephyr_interface
   TINYCBOR
   )
-
-endif()
